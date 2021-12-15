@@ -1,0 +1,86 @@
+body{
+	background-color: lightgreen;
+}
+h1{
+	text-align: center;
+	background-color: white;
+	padding: 20px;
+	font-size: 60px
+}
+}
+.red{
+	background-color: red;
+
+}
+.white{
+	background-color: white;
+}
+.green{
+	background-color: green;
+}
+img{
+	width: 300px;
+}
+li{
+	font-size: 30px;
+
+}
+h3{
+	font-size: 40px;
+	font-family: fantasy;
+	color: #0d6665;
+}
+h2{
+	font-size: 40px;
+	font-family: fantasy;
+	color: #0d6665;
+}
+.program{
+	width: 400px;
+	height: 400px;
+	border: 20px;
+	padding: 20px;
+	border-style: double;
+	border-color: #0d6665;
+	margin: 20px;
+}
+.paragrafi2{
+	font-size: 20px;
+	font-family: fantasy;
+}
+.paragraf1{
+	font-size: 20px;
+	font-family: fantasy;
+}
+.foto1{
+	padding: 50px;
+	border: 10px;
+	border-style: dotted;
+	margin: 10px;
+	border-color: red;
+}
+.foto2{
+	padding: 50px;
+	border: 10px;
+	border-style: dotted;
+	margin: 10px;
+	border-color: red;
+
+
+}
+.foto3{
+	padding: 50px;
+	border: 10px;
+	border-style: dotted;
+	margin: 10px;
+	border-color: red;
+}
+.futball{
+	width: 400px;
+	height: 400px;
+	border: 20px;
+	padding: 20px;
+	border-style: double;
+	border-color: #0d6665;
+	margin: 20px;
+}
