@@ -7,7 +7,7 @@ h1{
 	padding: 20px;
 	font-size: 60px
 }
-}
+
 .red{
 	background-color: red;
 
@@ -52,28 +52,9 @@ h2{
 	font-size: 20px;
 	font-family: fantasy;
 }
-.foto1{
-	padding: 50px;
-	border: 10px;
-	border-style: dotted;
-	margin: 10px;
-	border-color: red;
-}
-.foto2{
-	padding: 50px;
-	border: 10px;
-	border-style: dotted;
-	margin: 10px;
-	border-color: red;
 
 
-}
-.foto3{
-	padding: 50px;
-	border: 10px;
-	border-style: dotted;
-	margin: 10px;
-	border-color: red;
+
 }
 .futball{
 	width: 400px;
