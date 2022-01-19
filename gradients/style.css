@@ -1,0 +1,26 @@
+p {
+	padding: 70px;
+	margin: 20px;
+	color: #910314;
+	font-family: papyrus;
+	font-size: 50px;
+	text-align: center;
+}
+h1{
+	color: #910314;
+	font-family: papyrus;
+	font-size: 50px;
+	text-align: center;
+}
+body{
+	background: linear-gradient(90deg, rgba(21,90,91,1) 6%, rgba(25,92,97,1) 9%, rgba(32,95,108,1) 14%, rgba(82,117,186,1) 51%, rgba(16,59,106,1) 93%);
+}
+.grad1{
+	background:  linear-gradient(90deg, rgba(21,90,91,1) 35%, rgba(45,189,158,1) 100%, rgba(9,121,56,1) 100%);
+}
+.grad2{
+	 background: linear-gradient(0deg, rgba(24,146,148,1) 0%, rgba(24,128,102,1) 24%, rgba(15,167,103,1) 36%, rgba(51,161,51,1) 53%, rgba(167,122,27,1) 100%);
+}
+.grad3{
+	background: radial-gradient(circle, rgba(22,163,145,1) 20%, rgba(63,94,251,1) 39%, rgba(162,65,194,1) 71%);
+}
