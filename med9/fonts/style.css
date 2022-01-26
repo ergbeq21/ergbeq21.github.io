@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Comforter&family=Playfair+Display&family=Sedgwick+Ave&display=swap');
+
+
+*{
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+    color: white;
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	margin: 30px;
+	background-color: #32a89b;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	font-family: "Bree Serif";
+
+}
+
+h2{
+	font-size: 40px;
+	text-align: center;
+	margin: 30px;
+	background-color: #00ffe5;
+	font-family: Bree Serif;
+}
+
+p{
+	font-size: 30px;
+	line-height: 1.5;
+	margin: 30px;
+	column-count: 3;
+	font-family:"Playfair Display" ;
+}
+ .signature{
+ 	font-size: 50px;
+ 	font-family: "Comforter";
+ }
+ p:hover{
+ 	color: red;
+ }
