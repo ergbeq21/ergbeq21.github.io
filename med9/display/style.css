@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rowdies&family=Yellowtail&display=swap');
+*{
+    background: linear-gradient(90deg, rgba(21,90,91,1) 6%, rgba(25,92,97,1) 9%, rgba(32,95,108,1) 14%, rgba(82,117,186,1) 51%, rgba(16,59,106,1) 93%);;
+}
+h2{
+    font-size: 25px;
+    padding: 30px;
+    background-color: rgb(16, 16, 155);
+    display: inline-block;
+    text-align: center;
+    font-family: 'Rowdies';
+    font-weight: 20px;
+}
+
+.blue{
+    background-color: blue;
+    font-size: 30px;
+    text-shadow: #fff 4px 2px 3px;
+}
+
+.green{
+    background-color: rgb(19, 105, 19);
+    letter-spacing: 6px;
+    text-shadow: #fff 4px 2px 3px;
+}
+p{
+    font-size: 30px;
+    font-family: 'Pacifico';
+}
+
+h2:hover{
+    color: blueviolet;
+    transition: 0.5s;
+}
+
+a{
+    display: inline-block;
+    padding: 10px;
+    font-size: 40px;
+    margin: 10px;
+    border: 3px solid rgb(106, 26, 180);
+    background-color: rgb(76, 38, 112);
+    text-decoration: none;
+}
+
+.links{
+    text-align: center;
+
+}
+.tema{
+    text-align: center;
+}
+
+.green:hover{
+    color: blueviolet;
+    transition: 0.5s;
+}
+.blue:hover{
+    color: blueviolet;
+    transition: 0.5s;
+}
+a:hover{
+    color: rgb(210, 210, 231);
+    transition: 0.5s;
+}
+.foto1{
+    width: 700px;
+    height: 700px;
+    margin: 20px;
+
+}
+.foto2{
+    width: 700px;
+    height: 700px;
+    margin: 20px;
+}
+
+.fotot{
+    display: inline-block;
+}
+h1{
+    font-family: 'Yellowtail';
+}
+h1:hover{
+    color: blueviolet;
+    transition: 0.5s;
+}
+img:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
