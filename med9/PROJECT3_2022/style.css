@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Koulen&family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    padding: 30xp;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav img{
+    width: 70px;
+    padding: 10px;
+    border-radius: 100%;
+    height: 70px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul li a{
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 50px;
+    background-color: black;
+    border-radius: 15px;
+    font-family: 'Koulen';
+    transition: 0.7s;
+}
+
+nav ul li a:hover{
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    transition: 0.7s;
+ 
+}
+
+.active{
+    color: rgb(14, 134, 204);
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    margin-top: 150px;
+   
+}
+
+footer p{
+    padding: 10px;
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+footer p:hover{
+    transform: scale(0.9);
+    transition: 1.1s;
+}
+
+
+
+/******************************* Index Page*******************************/
+
+
+
+#index main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  
+}
+
+#index main .text{
+    width: 50%;
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps';
+    font-size: 25px;
+    
+}
+
+
+
+#index main .text a{
+    width: auto;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(14, 134, 204);
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.6s;
+
+}
+
+#index main .text a:hover{
+    color: white;
+    transition: 0.6s;
+}
+
+#index main .text p{
+    white-space: pre;
+}
+
+#index main .img{
+    width: 50%;
+   
+}
+
+#index main .img img{
+    width: 550px;
+}
+
+#index section{
+    background-image: url("1.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+}
+
+#index .sec1 .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oleo Script Swash Caps';
+    
+}
+
+#index .sec1 .text h1:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+#index .sec1 .text h1{
+    color: rgb(0, 0, 0);
+    width: auto;
+    padding: 15px;
+    background-color: white;
+    font-size: 30px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+#index nav .logo{
+    padding-left: 30px;
+}
+
+
+
+/***************************** Product Style*****************************/
+
+#products header{
+    padding-top: 110px;
+    font-size: 20px;
+    font-family: 'Oleo Script Swash Caps';
+}
+
+#products nav .logo2{
+    padding-left: 30px;
+}
+
+
+#products main{
+    padding-top: 80px;
+}
+
+#products{
+    font-family: 'Roboto', sans-serif;
+}
+
+#products header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+   
+}
+
+#products main {
+   
+    flex-wrap: wrap; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+ }
+ 
+ #products article{
+    position: relative;
+   padding: 40px;
+   color: white;
+   transition: 0.7s;
+ }
+
+ #products article:hover{
+     transform: scale(1.05);
+     transition: 0.7s;
+ }
+ 
+ 
+ #products article .image{
+    height: 180px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 30px 30px 0 0;
+    padding: 20px;
+  
+ }
+ 
+ #products article .text{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+ }
+ 
+ #products article .text p{
+     text-align: center;
+ }
+ 
+ #products article .text h1{
+     color: rgb(14, 134, 204);
+ }
+ #products article .text .header{
+    text-transform: uppercase;
+    font-size: 12px;
+ }
+ 
+ #products article .text .footerr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+ }
+ 
+
+ 
+ #products article .des{
+    font-size: 14px;
+ }
+ 
+ #products article .pr{
+    font-size: 25px;
+    transition: 0.7s;
+ }
+   
+#products article .pr:hover{
+    color: aqua;
+    transition: 0.7s;
+}
+ #products article .buy{
+    text-align: center;
+    margin-top: 10px;
+   
+ }
+ 
+ #products article a{
+    text-align: center;
+    width: 280px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgb(14, 134, 204);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 15px;
+    transition: 0.7s;
+ }
+ 
+ #products article :hover a{
+    transform: scale(1.1);
+    transition: 0.7s;
+ }
+ 
+
+ 
+ #products .contact{
+   background-color: black;
+   margin-top: 10px;
+ }
+ 
+ #products .contact:hover{
+    color: rgb(14, 134, 204);
+ }
+
+ #products main article div{
+     box-shadow: 10px 10px 15px gray;
+ }
+
+
+/************************* About Style ******************************/
+
+
+
+#about section {
+    background-image: url("1.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+   
+}
+
+#about nav .logo3{
+    padding-left: 30px;
+}
+
+
+#about .sec1 .text{
+ 
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oleo Script Swash Caps';
+}
+
+#about .sec1 .text .h1{
+   position: relative;
+   top: 130px;
+   left: -105px;
+   font-size: 30px;
+   font-family: 'Oleo Script Swash Caps';
+}
+
+#about .sec1 .text h1{
+    color: rgb(0, 0, 0);
+    width: auto;
+    padding: 15px;
+    background-color: white;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+#about .sec1 .text h1:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+
+#about .h1{
+    padding-top: 10px;
+    font-family: 'Bebas Neue';
+}
+
+#about .h1 p{
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 23px;
+}
+
+#about .h1 h1{
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps';
+}
+
+#about .describe{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#about .describe div img{
+    width: 500px;
+    height: 400px;
+}
