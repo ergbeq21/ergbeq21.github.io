@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	background-color: darkgray;
+}
+
+nav{
+	background: lightgray;
+	height: 160px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img{
+	height: 160px;
+}
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+
+}
+
+nav ul li {
+	padding-right: 50px;
+	margin: 10px;
+
+}
+
+nav ul li a{
+	margin: 20px;
+	padding: 30px;
+	color: white;
+	font-family: calibri;
+	font-size: 25px;
+	text-decoration: none;
+	border: 20px;
+	background-color: lightcoral;
+	border-radius: 50px;
+	transition: 0.5s;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover{
+	background-color: darkgray;
+	transition: 0.5s;
+}
+
+
