@@ -1,0 +1,60 @@
+.ball{
+	height: 22px;
+	width: 22px;
+	border-radius: 50%;
+	margin: 10px;
+	animation: bounce 2s;
+	animation-iteration-count: infinite;
+
+}
+
+.container{
+	display: flex;
+	height: 200px;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+
+.blue{
+	background-color: blue;
+	animation-delay: 0;
+
+}
+.yellow{
+	background-color: yellow;
+	animation-delay: 0.5s;
+}
+.green{
+	background-color: green;
+	animation-delay: 0.75s;
+
+}
+.red{
+	background-color: red;
+	animation-delay: 0.25s;
+}
+
+@keyframes bounce{
+	50% {transform: translateY(100%);}
+
+}
+
+@keyframes Loading{
+	0%  {opacity: 1;}
+	40%  {opacity: 0;}
+	100%{opacity: 1;}
+
+}
+
+.Loading{
+	font-family: monospace;
+	letter-spacing: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	animation: Loading 2s ;
+	animation-iteration-count: infinite;
+}

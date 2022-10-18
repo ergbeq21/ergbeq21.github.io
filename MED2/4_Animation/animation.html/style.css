@@ -1,0 +1,40 @@
+.big{
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 13%, rgba(0,212,255,1) 100%);
+	position: absolute;
+	top: 200px;
+
+
+}
+
+.small{
+	width: 50%;
+	height: 50%;
+	background-color: yellow;
+	animation-name: move;
+	animation-duration: 1s;
+	/*position des element nac der animation
+	forwards :element bleibt in endposition*/
+	animation-fill-mode: forwards;
+	/*gibt die richtung der bewegung an
+	alternate: fuhrt die animation 2x aus.*/;
+	animation-direction:alternate ;
+	animation-iteration-count: infinite;
+}
+
+.big:hover .small{
+	animation-play-state: paused;
+}
+
+
+@keyframes move{
+	0%{transform: translateX(0);}
+	33%{transform: translateY(100%);}
+	66%{transform: translate(100%, 100%);}
+	100%{transform: translateX(100%);
+		background-color: red;}
+
+
+
+}

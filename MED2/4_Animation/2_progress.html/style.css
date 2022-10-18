@@ -1,0 +1,42 @@
+body{
+	background-color: #2a9d8f;
+}
+
+.container{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+p{
+	color:  #f4a261;
+	font-family: monospace;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+
+.container.one{
+	height: 10px;
+	width: 250px;
+	border: solid ;
+	border-color: #f4a261;
+	border-width: 10px;
+	border-radius: 15px;
+}
+
+.container.two{
+	background-color: white;
+	height: 10px;
+	width: 250px;
+	border-radius: 15px;
+	animation: main 2s;
+
+}
+
+
+@keyframes main{
+	0% {width: 0%;}
+	25% {width: 25%;}
+	50% {width: 50%;}
+	75% {width: 80%;}
+}
