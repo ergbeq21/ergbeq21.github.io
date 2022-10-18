@@ -1,0 +1,18 @@
+
+/*design fur das Handy*/
+h1{
+	background-color: lightblue;
+	font-size: 30px;
+}
+
+/*Design fur den desktop*/
+
+/*trennlinie zw. smartphones/tabletes und desktop: 768px */
+
+@media(min-width: 768px){
+	h1{
+	background-color: red;
+	font-size: 50px;
+}
+
+}

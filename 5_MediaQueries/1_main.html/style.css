@@ -1,0 +1,63 @@
+*{
+	/*nav, article und aside sind mit dem padding grober als 100%.
+	die drei bereich passen daher nicht nebeneinander.
+	box-sizing: border-box... die grobenangaben umfassen das gesamte element.
+	(inkl. padding.margin,...)*/ 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	word-wrap: break-word;
+}
+/*design fr das smartphone*/
+header, nav , article, aside{
+	width: 100%;
+}
+header{
+	background-color: lightgrey;
+	padding: 25px;
+
+}
+
+nav{
+	background-color: lightblue;
+	padding: 25px;
+}
+
+article{
+	background-color: lightgreen;
+	padding: 25px;
+}
+aside{
+	background-color: yellow;
+	padding: 25px;
+}
+
+/* design fur den deskton*/
+
+
+@media(min-width: 768px){
+
+header{
+	background-color: lightgrey;
+	padding: 25px;
+
+}
+
+nav, aside{
+	width: 25%;
+	float: left;
+}
+
+article{
+	width: 50%;
+	float: left;
+}
+}
+#container{
+
+	/* kurze zeilen sind besser zu lesen  --> breite 70%*/
+	width: 70%;
+	margin: auto;
+}
+
+
