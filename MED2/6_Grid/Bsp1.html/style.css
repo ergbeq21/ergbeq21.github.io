@@ -1,0 +1,17 @@
+div{
+	border: solid 1px;
+}
+.container{
+	width: 500px;
+	height: 300px;
+	/*Defines the grid.*/
+	display: grid;
+	/*defines the number and the width of the columns.*/
+	grid-template-columns: 1fr  1fr  1fr ;
+	/*defines the number and the hight of the columns.*/
+	grid-template-rows: 200px auto;
+}.special{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	/*short form:  grid-column: 1/3;*/
+}
