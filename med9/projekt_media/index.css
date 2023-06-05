@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Koulen&family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+body{
+  margin: 0;
+
+}
+
+nav {
+  background: linear-gradient(90deg, rgba(0,36,20,1) 0%, rgba(9,121,95,1) 39%, rgba(0,212,255,1) 100%);
+  color: #fff;
+  height: 110px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.home{
+  color: black;
+  animation: colorchange 2s ease-in-out infinite;
+}
+@keyframes colorchange {
+  0% {
+    opacity: 1;
+    color: black;
+  }
+  50% {
+    opacity: 0.5;
+    color: rgb(27, 43, 39);
+  }
+  100% {
+    opacity: 1;
+    color: black;
+  }
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 20;
+  padding: 10;
+  font-family: 'Oswald';
+  font-size: 23px;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  color: #fff;
+  display: block;
+  margin-right: 50px;
+  text-decoration: none;
+  transition: 0.5s;
+  color: white;
+}
+
+nav ul li a:hover{
+  transform: scale(1.2);
+  transition: 0.5s;
+  color: black;
+
+}
+
+nav ul li .home:hover{
+  transform: scale(1.2);
+  transition: 0.5s;
+  color:white;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 22px;
+  top: 10px;
+  animation: logoAnimation 2s ease-in-out infinite;
+}
+
+@keyframes logoAnimation {
+  0% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: rotate(180deg) scale(0.8);
+    opacity: 0.3;
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+    opacity: 1;
+  }
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    margin-top: 150px;
+   
+}
+
+footer p{
+    padding: 10px;
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+footer p:hover{
+    transform: scale(0.9);
+    transition: 1.1s;
+}
+  
+
+
+
+
+#index1 main{
+  padding-top: 100px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto; 
+  grid-gap: 20px;
+
+}
+
+#index1 main .text{
+  width: 50%;
+  text-align: center;
+  font-family: 'Oleo Script Swash Caps';
+  font-size: 25px;
+  
+}
+
+
+
+#index1 main .text a{
+  width: auto;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(185, 84, 169);
+  margin-top: 10px;
+  border-radius: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  animation: exploreanimation 2s infinite;
+
+}
+@keyframes exploreanimation {
+  0% {
+    color: white;
+  }
+  50% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+
+#index1 main .text p{
+  white-space: pre;
+}
+
+#index1 main .ilustration{
+  width: 50%;
+ 
+}
+
+#index1 main .ilustration img{
+  width: 550px;
+
+}
+
+#index1 section{
+  background-image: url("rubbish.background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(80%);
+}
+
+#index1 .sec1 .text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oleo Script Swash Caps';
+  
+}
+
+#index1 .sec1 .text h1:hover{
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+#index1 .sec1 .text h1{
+  color: rgb(0, 0, 0);
+  width: auto;
+  padding: 15px;
+  background-color: white;
+  font-size: 30px;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+#index2 .home2{
+     color: black;
+}
+
+#index2 .home2:hover{
+  color: white;
+}
+#index .card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; 
+  width: 25%;
+}
+
+#index2 .card article {
+  box-shadow: black 3px 8px 20px;
+  transition: 0.7s;
+  width: 90%;
+  margin-left: 40px;
+}
+
+#index2 .card article:hover {
+  transform: scale(0.9);
+  transition: 0.7s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#index2 .card article .image {
+  height: 180px;
+  background-image: url(cardrub.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+#index2 .card article .text {
+  height: 200px;
+  background-color: white;
+  padding: 20px;
+  font-family: 'Open Sans';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+#index2 .card article .text .header {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#index2 .card article .text .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 14px;
+}
+
+#index2 .card article .text h1 {
+  font-size: 14px; 
+  margin: 0;
+  text-align: center;
+}
+
+
+
+#index .card2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; 
+  width: 25%;
+}
+
+#index2 .card2 article {
+  box-shadow: black 3px 8px 20px;
+  transition: 0.7s;
+  width: 90%;
+}
+
+#index2 .card2 article:hover {
+  transform: scale(0.9);
+  transition: 0.7s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#index2 .card2 .image {
+  height: 180px;
+  background-image: url(cardrub2.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+#index2 .card2 article .text {
+  height: 200px;
+ 
+  background-color: white;
+  padding: 20px;
+  font-family: 'Open Sans';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+#index2 .card2 article .text .header {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#index2 .card2 article .text .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 14px;
+}
+
+#index2 .card2 article .text h1 {
+  
+  font-size: 14px; 
+  margin: 0;
+  text-align: center;
+  
+}
+
+.parent{
+  
+  display: grid;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 20px;
+  padding-top: 20px;
+ 
+ 
+}
+
+
+#index3 .home3{
+  color: black;
+}
+
+#index3 .home3:hover{
+color: white;
+}
+
+
+@media (max-width: 768px) {
+
+  nav {
+    height: auto;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(0,36,20,1) 0%, rgba(9,121,95,1) 39%, rgba(0,212,255,1) 100%);
+  }
+
+  .logo {
+    position: static;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  nav ul li a {
+    margin-right: 0;
+    color: #fff;
+    transition: color 0.5s;
+  }
+
+  nav ul li a:hover {
+    color: #f8f8f8;
+  }
+
+
+#index1 main .text {
+  width: 100%;
+  text-align: center;
+  font-family: 'Oleo Script Swash Caps';
+  font-size: 25px;
+}
+
+#index1 main .text a {
+  width: auto;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(185, 84, 169);
+  margin-top: 10px;
+  border-radius: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  animation: logoAnimation 2s infinite;
+}
+
+@keyframes exploreanimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#index1 main .text a:hover {
+  color: white;
+  transition: 0.6s;
+}
+
+#index1 main .text p {
+  white-space: pre;
+}
+
+#index1 main .ilustration {
+  width: 100%;
+}
+
+#index1 main .ilustration img {
+  width: 100%;
+  max-width: 550px;
+}
+
+#index1 section {
+  background-image: url("rubbish.background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(80%);
+}
+
+#index1 .sec1 .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oleo Script Swash Caps';
+}
+
+#index1 .sec1 .text h1:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+#index1 .sec1 .text h1 {
+  color: rgb(0, 0, 0);
+  width: auto;
+  padding: 15px;
+  background-color: white;
+  font-size: 30px;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+#index2 .home2 {
+  color: black;
+}
+
+#index2 .home2:hover {
+  color: white;
+}
+
+#index .card,
+#index2 .card,
+#index2 .card2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+#index2 .card article,
+#index2 .card2 article {
+  box-shadow: black 3px 8px 20px;
+  transition: 0.7s;
+  width: 100%;
+  margin-left: 0;
+}
+
+#index2 .card article:hover,
+#index2 .card2 article:hover {
+  transform: scale(0.9);
+  transition: 0.7s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#index2 .card article .image,
+#index2 .card2 .image {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+#index2 .card article .text,
+#index2 .card2 article .text {
+  height: auto;
+  background-color: white;
+  padding: 20px;
+  font-family: 'Open Sans';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+#index2 .card article .text .header,
+#index2 .card2 article .text .header {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#index2 .card article .text .footer,
+#index2 .card2 article .text .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 14px;
+}
+
+#index2 .card article .text h1,
+#index2 .card2 article .text h1 {
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+}
+
+.parent {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding-top: 20px;
+}
+
+}
